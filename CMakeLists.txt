@@ -195,5 +195,6 @@ list(
 )
 
 set(CPACK_SOURCE_PACKAGE_FILE_NAME "id3tag-${PROJECT_VERSION}-source")
+set(CPACK_PACKAGE_CHECKSUM "SHA256")
 
 include(CPack)
